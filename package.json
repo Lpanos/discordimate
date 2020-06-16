@@ -1,16 +1,16 @@
 {
-    "name": "discordimate",
-    "version": "1.0.0",
-    "description": "Adds text animation functionality to Discord bots",
-    "license": "MIT",
-    "repository": "DeadlyHD/discordimate",
-    "main": "index.js",
-    "keywords": [
-      "Discord",
-      "npm",
-      "package",
-      "discordimate",
-      "text",
-      "animation"
-    ]
-  }
+  "name": "discordimate",
+  "version": "1.0.1",
+  "description": "Adds text animation functionality to Discord bots",
+  "license": "MIT",
+  "repository": "DeadlyHD/discordimate",
+  "main": "index.js",
+  "keywords": [
+    "Discord",
+    "npm",
+    "package",
+    "discordimate",
+    "text",
+    "animation"
+  ]
+}
