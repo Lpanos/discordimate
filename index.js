@@ -1,3 +1,9 @@
+const Discord = require('discord.js');
+const client = new Discord.Client();
+
+
+client.on('message', message => {
+
 module.exports = function animate(one,two,three,four,five) {
 
 function sleep(ms) {
@@ -15,7 +21,6 @@ message.channel.send(one).then((sentMessage) => {
             })
         })
     })
-
-
-    
 }
+    
+})
