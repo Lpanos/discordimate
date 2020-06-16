@@ -1,10 +1,16 @@
 const Discord = require('discord.js');
 const client = new Discord.Client();
+const config = require('./config.json')
+const token = (config.token)
 
+client.on('ready',()=>{
+    console.log('Hydro bot JR. is online');
+});
 
-client.on('message', message => {
+ client.on('message', message => {
 
-module.exports = function animate(one,two,three,four,five) {
+if(message.content == '69'){
+function animate(one,two,three,four,five) {
 
 function sleep(ms) {
     return new Promise(resolve => setTimeout(resolve, ms));
@@ -22,5 +28,10 @@ message.channel.send(one).then((sentMessage) => {
         })
     })
 }
-    
+
+console.log(animate('one','two','three','four','five'))
+
+}
+
 })
+client.login(token);
