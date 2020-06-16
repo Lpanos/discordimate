@@ -1,5 +1,5 @@
 {
-    "name": "@landonpanos/dicscordimate",
+    "name": "discordimate",
     "version": "1.0.0",
     "description": "Adds text animation functionality to Discord bots",
     "license": "MIT",
