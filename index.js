@@ -1,4 +1,4 @@
-module.exports = function tiny(one,two,three,four,five) {
+module.exports = function animate(one,two,three,four,five) {
 
 function sleep(ms) {
     return new Promise(resolve => setTimeout(resolve, ms));
