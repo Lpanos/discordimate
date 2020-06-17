@@ -1,3 +1,7 @@
+const Discord = require('discord.js');
+const client = new Discord.Client();
+
+client.on('message', message => {
 module.exports = async function animate() {
     
     
@@ -16,3 +20,5 @@ module.exports = async function animate() {
 
 
 }
+
+})
