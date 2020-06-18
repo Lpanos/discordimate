@@ -1,17 +1,17 @@
-
-module.exports = async function animate() {
-
 const Discord = require('discord.js');
 const client = new Discord.Client();
 
-            function animateSleep(ms) {
-                return new animatePromise(resolve => animateSetTimeout(resolve, ms));
-            }
-            const animateWait = ms => new animatePromise(resolve => animateSetTimeout(resolve, ms));
-            const SentMessage = await message.channel.send(arguments[0]);
+module.exports = async function animate() {
+
+    function sleep(ms) {
+        return new Promise(resolve => setTimeout(resolve, ms));
+    }
+    const wait = ms => new Promise(resolve => setTimeout(resolve, ms));
+            // send with the first argument
+    const sentMessage = await message.channel.send(arguments[0]);
             // continue editing with the remaining args
-            for (let i=1; i < arguments.length; i++) {
-                await animateWait(1000);
-                await sentMessage.edit(arguments[i]);
-            }
-        }
+    for (let i=1; i < arguments.length; i++) {
+            await wait(1000);
+            await sentMessage.edit(arguments[i]);
+    }
+}
