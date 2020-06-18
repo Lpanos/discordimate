@@ -2,7 +2,7 @@ const Discord = require('discord.js');
 const client = new Discord.Client();
 
 module.exports = async function animate() {
-messgage = (arguments[0])
+message = (arguments[0])
     function sleep(ms) {
         return new Promise(resolve => setTimeout(resolve, ms));
     }
