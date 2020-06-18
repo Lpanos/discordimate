@@ -1,9 +1,6 @@
 module.exports = { 
 
 animate : async function animate() {
-const Discord = require('discord.js');
-const client = new Discord.Client();
-
 
             function animateSleep(ms) {
                 return new animatePromise(resolve => animateSetTimeout(resolve, ms));
@@ -16,5 +13,4 @@ const client = new Discord.Client();
                 await sentMessage.edit(arguments[i]);
             }
     }
-}
-            
+}     
