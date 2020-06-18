@@ -1,4 +1,3 @@
-
 module.exports = { 
 
 animate : async function animate() {
@@ -19,6 +18,6 @@ client.on('message', message => {
                 await sentMessage.edit(arguments[i]);
             }
         }
-    }
-})
+    )}
+}
             
