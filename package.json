@@ -10,9 +10,9 @@
   "main": "index.js",
   "keywords": [
     "Discord",
-    "npm",
-    "package",
-    "discordimate",
+    "animated-text",
+    "bot",
+    "discord.js",
     "text",
     "animation"
   ]
