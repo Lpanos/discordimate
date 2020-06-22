@@ -1,4 +1,9 @@
 module.exports = async function animate() {
+if((arguments[0]) /= message){
+        console.log('First argument needs to be "message"')
+}
+
+else{
     message = (arguments[0])
     function sleep(ms) {
         return new Promise(resolve => setTimeout(resolve, ms));
@@ -11,4 +16,5 @@ module.exports = async function animate() {
             await wait(1000);
             await sentMessage.edit(arguments[i]);
     }
+        }
 }
