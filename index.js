@@ -1,8 +1,8 @@
 module.exports = async function animate() {
 
-        if(Array.isArray(arguments[0]) == false){
-                throw new Error("The first variable is not set to your message array ('message' or 'msg')");
-        }
+        // if(Array.isArray(arguments[0]) == false){
+        //         throw new Error("The first variable is not set to your message array ('message' or 'msg')");
+        // }
 
     message = (arguments[0])
     function sleep(ms) {
