@@ -1,6 +1,6 @@
 {
   "name": "discordimate",
-  "version": "1.4.1",
+  "version": "1.4.2",
   "dependencies": {
     "discord.js": "^12.2.0"
   },
