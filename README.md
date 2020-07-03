@@ -28,11 +28,11 @@ _Remember: You can create line breaks in text with \n. Use this to create ascii 
     npm i discordimate
 
 ## Todo
-- [X] Add more message arrow function support (msg)
-- [X] Increase FPS of animations
-- [X] Add looping functionality
-- [x] Multi-line input (for ASCII)
-- [x] ASCII text to animation functionality
+- [x] Add more message arrow function support (msg) [7/3/2020]
+- [ ] Increase FPS of animations
+- [ ] Add looping functionality
+- [ ] Multi-line input (for ASCII)
+- [ ] ASCII text to animation functionality
 
 Pull requests are more than welcomed!
 
