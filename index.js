@@ -1,9 +1,9 @@
 module.exports = async function animate() {
 
-        if ((arguments[0]) == null) {
+        if ((arguments[0]) == 'null') {
                 throw new Error("The first variable is not set to your message array ('message' or 'msg')")
             }
-        else if((arguments[0]) == undefined) {
+        else if((arguments[0]) == 'undefined') {
                 throw new Error("The first variable is not set to your message array ('message' or 'msg')")
             }
         else{
